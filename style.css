@@ -1,0 +1,408 @@
+*.countdown{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    gap: 60px;
+}
+.N1{
+    border-radius: 7px;
+    width: 500px;
+    height: 350px;
+}
+.deadline{
+    display: flex;
+    gap: 30px;
+}
+.speech{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Baskerville Old Face;
+    font-weight: 600;
+}
+.head{
+    font-family: algerian;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.end{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.deadline_format{
+    width: 70px;
+    height: 80px;
+    background-color: rgba(164, 162, 162, 0.963);
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.h4{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.Views{
+    display: flex;
+    gap: 15px;
+}
+.prev{
+    margin-top: 130px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.next{
+    margin-top: 130px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    margin-left: 10px;
+}
+.Support{
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    gap: 10px;
+    font-size: 13px;
+}
+.Info{
+    display: flex;
+    background-color: black;
+    margin: 0;
+    position: relative;
+}
+.more{
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 950px) and (min-width: 571px) {
+    .countdown{
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        gap: 30px;
+    }
+    .N1{
+        border-radius: 7px;
+        width: 500px;
+        height: 350px;
+    }
+    .Views{
+        display: flex;
+        gap: 15px;
+        margin-left: 175px;
+    }
+    .prev{
+        margin-top: 150px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .next{
+        margin-top: 150px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .deadline{
+        gap: 50px;
+        margin-left: 90px;
+        margin-bottom: 100px;
+    }
+    .head{
+        font-family: algerian;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 65px;
+    }
+    .end{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .speech{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        font-family: Baskerville Old Face;
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .Support{
+        display: flex;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        gap: 10px;
+        font-size: 29px;
+    }
+    .Info{
+        display: flex;
+        background-color: black;
+        margin: 0;
+        position: relative;
+    }
+    .more{
+        color: white;
+        margin-left: 10px;
+        font-size: 30px;
+        height: 380px;
+    }
+    .deadline_format{
+        width: 130px;
+        height: 150px;
+        background-color: rgba(164, 162, 162, 0.963);
+        text-align: center;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .h4{
+        font-size: 70px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .span{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 570px) and (min-width: 431px) {
+    .countdown{
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        gap: 30px;
+    }
+    .N1{
+        border-radius: 7px;
+        width: 300px;
+        height: 230px;
+    }
+    .Views{
+        display: flex;
+        gap: 5px;
+        margin-left: 75px;
+    }
+    .prev{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .next{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .deadline{
+        display: flex;
+        gap: 30px;
+        margin-left: 65px;
+        margin-bottom: 70px;
+    }
+    .Support{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 13px;
+    }
+    .Info{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .more{
+        color: white;
+        margin-left: 2px;
+        font-size: 13px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 430px) and (min-width: 391px) {
+    .countdown{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        gap: 30px;
+    }
+    .N1{
+        border-radius: 7px;
+        width: 300px;
+        height: 230px;
+    }
+    .Views{
+        display: flex;
+        gap: 5px;
+        margin-left: 30px;
+    }
+    .prev{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .next{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .Support{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 13px;
+    }
+    .Info{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .more{
+        color: white;
+        margin-left: 5px;
+        font-size: 13px;
+        height: 210px;
+    }
+    .deadline{
+        display: flex;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 390px) and (min-width: 300px) {
+    .countdown{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 3px;
+        gap: 10px;
+    }
+    .N1{
+        border-radius: 7px;
+        width: 300px;
+        height: 230px;
+    }
+    .Views{
+        display: flex;
+        gap: 5px;
+        margin-left: 1px;
+    }
+    .prev{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .next{
+        margin-top: 90px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .head{
+        font-family: algerian;
+        margin-bottom: 10px;
+    }
+    .Support{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 13px;
+    }
+    .Info{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .more{
+        color: white;
+        margin-left: 3px;
+        font-size: 13px;
+        height: 170px;
+    }
+    .deadline{
+        display: flex;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 299px){
+    .countdown{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 1px;
+        gap: 15px;
+    }
+    .N1{
+        border-radius: 7px;
+        width: 230px;
+        height: 170px;
+    }
+    .Views{
+        display: flex;
+        gap: 3px;
+        margin-bottom: 0px;
+    }
+    .prev{
+        margin-top: 63px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .next{
+        margin-top: 63px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .deadline_format{
+        width: 70px;
+        height: 80px;
+        background-color: rgba(164, 162, 162, 0.963);
+        text-align: center;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .deadline{
+        display: flex;
+        gap: 12px;
+    }
+    .head{
+        font-family: algerian;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .Support{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 13px;
+    }
+    .Info{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .more{
+        color: white;
+        margin-left: 3px;
+        font-size: 13px;
+        height: 210px;
+    }
+    .deadline{
+        display: flex;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+}
