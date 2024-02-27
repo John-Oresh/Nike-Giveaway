@@ -1,14 +1,14 @@
 *.countdown{
     display: flex;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 140px;
     margin-left: 30px;
     gap: 60px;
 }
 .N1{
     border-radius: 7px;
     width: 500px;
-    height: 350px;
+    height: 360px;
 }
 .deadline{
     display: flex;
@@ -81,6 +81,7 @@
     color: white;
     margin-left: 10px;
     font-size: 13px;
+    cursor: pointer;
 }
 
 
@@ -155,6 +156,7 @@
         margin-left: 10px;
         font-size: 30px;
         height: 380px;
+        cursor: pointer;
     }
     .deadline_format{
         width: 130px;
@@ -225,6 +227,7 @@
         margin-left: 2px;
         font-size: 13px;
         height: 190px;
+        cursor: pointer;
     }
 }
 
@@ -272,6 +275,7 @@
         margin-left: 5px;
         font-size: 13px;
         height: 210px;
+        cursor: pointer;
     }
     .deadline{
         display: flex;
@@ -328,6 +332,7 @@
         margin-left: 3px;
         font-size: 13px;
         height: 170px;
+        cursor: pointer;
     }
     .deadline{
         display: flex;
@@ -399,6 +404,7 @@
         margin-left: 3px;
         font-size: 13px;
         height: 210px;
+        cursor: pointer;
     }
     .deadline{
         display: flex;
