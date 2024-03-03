@@ -83,7 +83,38 @@
     font-size: 13px;
     cursor: pointer;
 }
-
+.no1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.no1:hover{
+    text-decoration: underline;
+    color: aqua;
+    font-style: italic;
+}
+.no2{
+    margin-top: 0;
+}
+.no2:hover{
+    text-decoration: underline;
+    color: aqua;
+    font-style: italic;
+}
+.G:hover{
+    text-decoration: underline;
+}
+.T:hover{
+    text-decoration: underline;
+}
+.Te:hover{
+    text-decoration: underline;
+}
+.N:hover{
+    text-decoration: underline;
+}
+.Ni:hover{
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 950px) and (min-width: 571px) {
     .countdown{
@@ -175,6 +206,38 @@
     .span{
         font-size: 32px;
     }
+    .no1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no1:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .no2{
+        margin-top: 0;
+    }
+    .no2:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .G:hover{
+        text-decoration: underline;
+    }
+    .T:hover{
+        text-decoration: underline;
+    }
+    .Te:hover{
+        text-decoration: underline;
+    }
+    .N:hover{
+        text-decoration: underline;
+    }
+    .Ni:hover{
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 570px) and (min-width: 431px) {
@@ -229,6 +292,38 @@
         height: 190px;
         cursor: pointer;
     }
+    .no1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no1:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .no2{
+        margin-top: 0;
+    }
+    .no2:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .G:hover{
+        text-decoration: underline;
+    }
+    .T:hover{
+        text-decoration: underline;
+    }
+    .Te:hover{
+        text-decoration: underline;
+    }
+    .N:hover{
+        text-decoration: underline;
+    }
+    .Ni:hover{
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 430px) and (min-width: 391px) {
@@ -281,6 +376,38 @@
         display: flex;
         gap: 30px;
         margin-bottom: 70px;
+    }
+    .no1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no1:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .no2{
+        margin-top: 0;
+    }
+    .no2:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .G:hover{
+        text-decoration: underline;
+    }
+    .T:hover{
+        text-decoration: underline;
+    }
+    .Te:hover{
+        text-decoration: underline;
+    }
+    .N:hover{
+        text-decoration: underline;
+    }
+    .Ni:hover{
+        text-decoration: underline;
     }
 }
 
@@ -338,6 +465,38 @@
         display: flex;
         gap: 30px;
         margin-bottom: 70px;
+    }
+    .no1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no1:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .no2{
+        margin-top: 0;
+    }
+    .no2:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .G:hover{
+        text-decoration: underline;
+    }
+    .T:hover{
+        text-decoration: underline;
+    }
+    .Te:hover{
+        text-decoration: underline;
+    }
+    .N:hover{
+        text-decoration: underline;
+    }
+    .Ni:hover{
+        text-decoration: underline;
     }
 }
 
@@ -410,5 +569,37 @@
         display: flex;
         gap: 30px;
         margin-bottom: 70px;
+    }
+    .no1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no1:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .no2{
+        margin-top: 0;
+    }
+    .no2:hover{
+        text-decoration: underline;
+        color: aqua;
+        font-style: italic;
+    }
+    .G:hover{
+        text-decoration: underline;
+    }
+    .T:hover{
+        text-decoration: underline;
+    }
+    .Te:hover{
+        text-decoration: underline;
+    }
+    .N:hover{
+        text-decoration: underline;
+    }
+    .Ni:hover{
+        text-decoration: underline;
     }
 }
